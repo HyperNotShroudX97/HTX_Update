@@ -25,7 +25,7 @@ if [[ "${u_n}" == "I" ]]; then
 	cd HyperUserge-UX
 	git pull
 	git pull https://github.com/code-rgb/USERGE-X.git
-	repo="HyperUserge-UX"https://github.com/HyperNotShroudX97/HyperUserge-UX.githttps://github.com/ashwinstr/UX-itachi.git
+	repo="HyperUserge-UX"
 fi
 
 if [[ "${u_n}" == "M" ]]; then
