@@ -7,19 +7,19 @@ echo """###You're running the USERGE-X update script.###"""
 echo " "
 
 #get username of user
-echo -n "HyperUserge-UX or Itachi or MyGpack repo? (H)/(I)/(M): "
+echo -n "HyperUserge-UX Or HyperTerminator-X Or HTX_Pack Repo? (H)/(I)/(M): "
 read u_n
 
 if [[ "${u_n}" == "H" ]]; then
 	rm -rf HyperUserge-UX
-	git clone https://github.com/HyperNotShroudX97/HyperUserge-UX.git
-	cd HyperUserge-UX
+	git clone https://github.com/HyperNotShroudX97/HyperTerminator-X.git
+	cd HyperTerminator-X
 	git pull
-	git pull https://github.com/ashwinstr/UX-itachi.git
-	repo="HyperUserge-UX"
+	git pull https://github.com/HyperNotShroudX97/HyperUserge-UX.git
+	repo="HyperTerminator-X"
 fi
 
-if [[ "${u_n}" == "I" ]]; then
+if [[ "${u_n}" == "H" ]]; then
 	rm -rf HyperUserge-UX
 	git clone https://github.com/HyperNotShroudX97/HyperUserge-UX.git
 	cd HyperUserge-UX
@@ -28,13 +28,13 @@ if [[ "${u_n}" == "I" ]]; then
 	repo="HyperUserge-UX"
 fi
 
-if [[ "${u_n}" == "M" ]]; then
+if [[ "${u_n}" == "H" ]]; then
         rm -rf MyGpack
-        git clone https://github.com/HyperNotShroudX97/MyGpack.git
+        git clone https://github.com/HyperNotShroudX97/HTX_Pack.git
         cd MyGpack
         git pull
         git pull https://github.com/code-pms/MyGpack.git
-        repo="MyGpack"
+        repo="HTX_Pack"
 fi
 
 echo " "
